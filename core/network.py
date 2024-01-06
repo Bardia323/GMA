@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from update import GMAUpdateBlock
 from extractor import BasicEncoder
 from corr import CorrBlock
-from utils.utils import bilinear_sampler, coords_grid, upflow8
+from utilus.utils import bilinear_sampler, coords_grid, upflow8
 from gma import Attention, Aggregate
 
 try:
